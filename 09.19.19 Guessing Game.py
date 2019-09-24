@@ -9,7 +9,7 @@ guess = 0
 highGuessRange = 1000000
 lowGuessRange = 1
     
-while guess != theComputerNumber and numberOfGuesses <= 20 and gameOver != True:
+while guess != theComputerNumber and numberOfGuesses < 20 and gameOver != True:
 
     guess = int(input("Enter a guess: "))
 
