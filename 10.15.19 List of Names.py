@@ -1,3 +1,4 @@
+#List of Names
 
 nameList = [] 
    
@@ -12,11 +13,9 @@ end = False
 while end == False:
     search = input("Enter a name to search for or 'end' to stop the program: ")
     if search in nameList:
-        print(search, "was found")
-        
+        print(search, "was found")   
     elif search == "end":
-        end = True
-        
+        end = True   
     else:
         print (search, "was not found")
 
